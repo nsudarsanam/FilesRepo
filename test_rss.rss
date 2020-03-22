@@ -1,22 +1,28 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
-<channel>
-<title>My personal feed</title>
-<link>http://thoughtfox.co/</link>
-<description>My personal feed</description>
-<atom:link href="http://thoughtfox.co/" rel="self"/>
-<image><url>http://thoughtfox.co/public/misc%20images/fox.png</url>
-<title>My personal feed</title>
-<link>http://thoughtfox.co/</link>
-</image>
-<lastBuildDate>Wed, 18 Mar 2020 06:04:53 +0000</lastBuildDate>
-<itunes:category text="Technology"><itunes:category text="Podcasting"/></itunes:category>
-<item>
-<title> LaDonna</title>
-<description>A security guard at the airport notices something going wrong on the tarmac, and takes it upon herself to fix it. It’s way harder than she expects. </description>
-<author>ira@tal.org (This American Life)</author>
-<guid isPermaLink="false">49</guid>
-<enclosure url="https://stream.thisamericanlife.org/647/8UegB_HtUSdzU9-J-f1DOr19k67xlAx9bCTGeUOFBBg/647.mp3" length="0" type="audio/mpeg"/>
-<pubDate>Tue, 17 Mar 2020 23:04:53 -0700</pubDate>
-</item>
-</channel>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlnscontent="http://purl.org/rss/1.0/modules/content/" xmlnsitunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>My test feed</title>
+    <link>http://thoughtfox.co/</link>
+    <description>My own feed</description>
+    <atom:link href="http://thoughtfox.co/" rel="self" />
+    <image>
+      <url>http://thoughtfox.co/public/misc%20images/fox.png</url>
+      <title>My own feed</title>
+      <link>http://thoughtfox.co/</link>
+    </image>
+    <item>
+      <title>The Cruelty of Children</title>
+      <author>ira@tal.org (This American Life)</author>
+      <link />
+      <description>Stories about kids being mean to each other... including a mysterious handbook for bullies, a surprising experiment conducted by a teacher who wants to make kids be nice, and a story of youthful backstabbing told by David Sedaris.</description>
+      <pubDate>Sat, 21 Mar 2020 19:04:17 -0700</pubDate>
+      <guid>1</guid>
+      <enclosure>
+        <url>https://stream.thisamericanlife.org/27/27.mp3</url>
+        <length>0</length>
+        <type>audio/mpeg</type>
+      </enclosure>
+    </item>
+  </channel>
 </rss>
+
